@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="background">
+
+<div class="nav">
+<a class="a active" href="#">HOME</a>
+<a class="b" href="#">ABOUT ME</a>
+<a class="f" href="#">ACADEMIC</a>
+<a class="e" href="#">MY HOBBIES</a>
+<a class="c" href="#">GALLERY</a>
+<a class="d" href="#">CONTACT WITH ME</a>
+
+</div>
+
+<div class="content">
+	<div class="home">
+		<h1>I am Mostafiz</h1>
+		<h3>Junior Graphic Designer </h3>
+	
+	</div>
+	<div class="aboutus">
+	<p><b>Hello Friends,</b><br>
+	Welcome to my <b>website.</b><br>
+	<p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. I like to read, I like to write;
+	I like to think, I like to dream; I like to talk, I like to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; 
+	I like to feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the clouds in the sky with a blank mind, 
+	I like to do thought experiment when I cannot sleep in the middle of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter.
+	I like to sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like country’s peace, I like metropolis’ noise; 
+	I like the beautiful west lake in Hangzhou, I like the flat cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and romantic movies. 
+	I like the land and the nature, I like people. And, I like to laugh.</p><br>
+	<p><b>Name: Md. Mostafizur Rahman</b></p><br>
+	<p><b>ID: 011202003<b><p>
+	</div>
+	
+	<div class="academic">
+	
+	<table class="content-table">
+  <tr>
+    <th>Institutions</th>
+    <th>PassingYear</th>
+    <th>Social Media</th>
+  </tr>
+  <tr>
+    <td>Udayan Secondary School,Barishal</td>
+    <td>2016</td>
+    <td><a href="https://www.facebook.com/UdayanHighSchool.Barisal/" class="fa fa-facebook" ></a></td>
+  </tr>
+  <tr>
+    <td>Govt. Sayed Hatem Ali College,Barishal</td>
+    <td>2018</td>
+    <td><a href="https://www.facebook.com/Govt.SyedHatemAliCollege/" class="fa fa-facebook" ></a></td>
+  </tr>
+  <tr>
+    <td>United International University</td>
+    <td>:)</td>
+    <td><a href="https://www.facebook.com/uiuinfo/" class="fa fa-facebook" ></a></td>
+  </tr>
+  
+</table>
+	
+	</div>
+	
+	<div class="hobby">
+		<div class="hi">
+			<img src="images/cy2.png">
+		
+		</div>
+		<div class="hi"> 
+			<img src="images/dd.png">
+			
+		</div>
+		<div class="hi"> 
+			<img src="images/rr.png">
+		
+		</div>
+		<div class="hi"> 
+			<img src="images/ss2.png">
+		
+		</div>
+	
+	</div>
+	
+	<div class="gallery">
+		<div class="image">
+			<img src="images/1.png" />
+		</div>
+		<div class="image">
+			<img src="images/2.png" />
+		</div>
+		<div class="image">
+			<img src="images/3.png" />
+		</div>
+		<div class="image">
+			<img src="images/4.png" />
+		</div>
+		<div class="image">
+			<img src="images/5.png" />
+		</div>
+		<div class="image">
+			<img src="images/6.png" />
+		</div>
+		<div class="image">
+			<img src="images/7.png" />
+		</div>
+		<div class="image">
+			<img src="images/8.png" />
+		</div>
+		
+	</div>
+	
+	<div class="contactus">
+	
+		<div class="contactform">
+			<form action ="index.html" method="post">
+				<input type="text" name="" class="inputtext" value="First Name">
+				<input type="text" name="" class="inputtext" value="Last Name">
+				<input type="text" name="" class="inputtext" value="Your Email">
+				<textarea cols="4" rows="6" class="inputmessage"> Your Messages...!!!
+				</textarea>
+				<input type="button" name="" class="submitbutton" value="Submit">
+			
+			</form>
+			
+		</div>	
+		
+		
+  
+	</div>
+	
+	
+
+</div>	
+
+</div>
+
+<script type ="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('a').click(function(){
+		//alert("i am click");
+		var selected = $(this);
+		$('a').removeClass('active');
+		$(selected).addClass('active');
+		});
+		
+		var $a = $('.a'),
+		$b = $('.b'),
+		$f = $('.f'),
+		$e = $('.e'),
+		$c = $('.c'),
+		$d = $('.d'),
+        $home = $('.home'),
+        $aboutus = $('.aboutus');
+        $academic = $('.academic');
+        $hobby = $('.hobby');
+		$gallery = $('.gallery');
+		$contactus = $('.contactus');
+		
+		$a.click(function(){
+			$home.fadeIn();
+			$aboutus.fadeOut();
+			$gallery.fadeOut();
+			$contactus.fadeOut();
+			$academic.fadeOut();
+			$hobby.fadeOut();
+		});
+        $b.click(function(){
+			$aboutus.fadeIn();
+			$home.fadeOut();
+			$gallery.fadeOut();
+			$contactus.fadeOut();
+			$academic.fadeOut();
+			$hobby.fadeOut();
+		});
+		$f.click(function(){
+			$academic.fadeIn();
+			$hobby.fadeOut();
+			$aboutus.fadeOut();
+			$home.fadeOut();
+			$gallery.fadeOut();
+			$contactus.fadeOut();
+		});
+		$e.click(function(){
+			
+			$hobby.fadeIn();
+			$academic.fadeOut();
+			$aboutus.fadeOut();
+			$home.fadeOut();
+			$gallery.fadeOut();
+			$contactus.fadeOut();
+		});
+		
+		$c.click(function(){
+		$gallery.fadeIn();
+		$home.fadeOut();
+		$aboutus.fadeOut();
+		$contactus.fadeOut();
+		$academic.fadeOut();
+		$hobby.fadeOut();
+		});
+		
+		$d.click(function(){
+		$contactus.fadeIn();
+		$home.fadeOut();
+		$gallery.fadeOut();
+		$aboutus.fadeOut();
+		$hobby.fadeOut();
+		$academic.fadeOut();
+		});
+	});	
+</script>
+
+
+</body>
+</html>
