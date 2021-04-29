@@ -9,6 +9,10 @@ html,body{
 	font-weight: normal;
 }
 
+.material-icons{
+    font-size: 50px;
+}
+
 .background{
 	width : 100%;
 	height: 100%;
@@ -46,6 +50,7 @@ html,body{
 	
 	
 }
+
 
 
 
