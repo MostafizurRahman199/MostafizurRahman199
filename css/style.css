@@ -359,6 +359,18 @@ clear:both;
 margin-top:25px;
 
 }	
+
+.submitbutton:hover{
+	transition: 0.9s;
+
+background-color:#DE2727;
+	color: white;
+}
+.submitbutton:active{
+	width:150px;
+height:55px;
+transition:0.1s;
+}
 	
 	
 	
