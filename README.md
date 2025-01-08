@@ -12,15 +12,15 @@
 
 ###
 
-<h4 align="left">About Me</h4>
+<h3 align="left">About Me</h3>
 
 ###
 
-<h6 align="left">I'm a Computer Science graduate passionate about coding and web development, specializing in React.js, JavaScript, and Node.js. I enjoy creating engaging digital solutions, sharing knowledge through content creation, and connecting with the tech community.</h6>
+<h5 align="left">I'm a Computer Science graduate passionate about coding and web development, specializing in React.js, JavaScript, and Node.js. I enjoy creating engaging digital solutions, sharing knowledge through content creation, and connecting with the tech community.</h5>
 
 ###
 
-<h4 align="left">Current Activity</h4>
+<h3 align="left">Current Activity</h3>
 
 ###
 
@@ -28,7 +28,7 @@
 
 ###
 
-<h4 align="left">Weapons I Have</h4>
+<h3 align="left">Weapons I Have</h3>
 
 ###
 
@@ -64,7 +64,7 @@
 
 ###
 
-<h4 align="left">Connect With Me</h4>
+<h3 align="left">Connect With Me</h3>
 
 ###
 
@@ -83,7 +83,7 @@
 
 ###
 
-<h4 align="left">Github Stats</h4>
+<h3 align="left">Github Stats</h3>
 
 ###
 
