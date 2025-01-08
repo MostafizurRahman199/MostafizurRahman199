@@ -8,7 +8,7 @@
 
 ###
 
-<h2 align="left">Problem Solver | Web Developer | CS Enginer | JS Programmer</h2>
+<h2 align="left">Problem Solver | Web Developer | CS Engineer | JS Programmer</h2>
 
 ###
 
