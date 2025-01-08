@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="200" src="https://i.ibb.co.com/vP4Ys4K/Red-Modern-Business-Agency-Linked-In-Banner.png"  />
+  <img height="200" src="https://i.ibb.co.com/NLmztVk/Red-Modern-Business-Agency-Linked-In-Banner-1.png"  />
 </div>
 
 ###
